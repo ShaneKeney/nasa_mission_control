@@ -1,0 +1,25 @@
+{
+  "name": "nasa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:server": "npm install --prefix server",
+    "install:client": "npm install --prefix client",
+    "install:": "npm install --prefix server && npm install --prefix client",
+    "watch": "npm run server & npm run client",
+    "server": "npm run watch --prefix server ",
+    "client": "npm start --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaneKeney/nasa_mission_control.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaneKeney/nasa_mission_control/issues"
+  },
+  "homepage": "https://github.com/ShaneKeney/nasa_mission_control#readme"
+}
