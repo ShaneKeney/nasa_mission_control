@@ -1,6 +1,7 @@
 const http = require('http')
 const app = require('./app')
 const { loadPlanets } = require('./models/planets')
+const { habitablePlanets } = require('./models/planets')
 
 const PORT = process.env.PORT || 8000
 
